@@ -6,7 +6,7 @@ public class Usuario {
     private  String correoUsuario;
     private  String passUsuario;
 
-    private Usuario(long idUsuario, String nombreUsuario, String correoUsuario, String passUsuario) {
+    public Usuario(long idUsuario, String nombreUsuario, String correoUsuario, String passUsuario) {
         this.idUsuario = idUsuario;
         this.nombreUsuario = nombreUsuario;
         this.correoUsuario = correoUsuario;
